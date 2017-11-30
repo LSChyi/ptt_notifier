@@ -10,7 +10,7 @@ def parse_post(post_tag):
     }
 
 def post_filter(post):
-    if not all([ re.search(keyword, post['title']) for keyword in filter_config['required_keywords'] ]):
+    if len(filter_config['required_keywords']) != 0 and not all([ re.search(keyword, post['title']) for keyword in filter_config['required_keywords'] ]):
         return False
     if len(filter_config['optional_keywords']) != 0 and not any([ re.search(keyword, post['title']) for keyword in filter_config['optional_keywords'] ]):
         return False

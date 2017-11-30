@@ -1,16 +1,16 @@
 telegram_config = {
-    'bot_key': '',
-    'notified_chat_ids': [
-        ''
+    'bot_key': '', # your telegram bot secret key
+    'notified_chat_ids': [ # the chats you want this bot to send notifies to
+        '' 
     ],
-    'base_url': '',
+    'base_url': 'https://api.telegram.org/bot',
 }
 
 ptt_config = {
     'monitor_interval': 30, # seconds
     'checked_posts_db': '',
     'monitor_boards': [
-        ''
+        'HardwareSale'
     ],
     'base_url': 'https://www.ptt.cc',
 }
@@ -18,9 +18,9 @@ ptt_config = {
 filter_config = {
     'case_sensitive': False,
     'required_keywords': [
-        ''
+        '1080'
     ],
     'optional_keywords': [
-        ''
+        'msi', '微星'
     ],
 }
