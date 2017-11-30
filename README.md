@@ -33,7 +33,7 @@ You can configure some parameters here:
 You can configure the keywords you are interested in.
 
 * required_keywords: the post must match all keywords in this field, if you set case sensitive to false, enter the lower case English keywords.
-* optional_keywords: the post must match at least one keywords in the field. If you leave this field empty, then this configure does not work.
+* optional_keywords: the post must match at least one keywords in the field. If you leave this field empty, then this configuration does not work.
 
 ## Monitoring
 Once you complete the configuration, you can start to run the ptt notifier!
