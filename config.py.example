@@ -1,0 +1,15 @@
+telegram_config = {
+    'bot_key': '',
+    'notified': [
+        ''
+    ],
+}
+
+ptt_config = {
+    'monitor_interval': 30, # seconds
+    'checked_posts_db': '',
+    'monitor_boards': [
+        ''
+    ],
+    'base_url': 'https://www.ptt.cc'
+}
