@@ -1,8 +1,9 @@
 telegram_config = {
     'bot_key': '',
-    'notified': [
+    'notified_chat_ids': [
         ''
     ],
+    'base_url': '',
 }
 
 ptt_config = {
@@ -11,5 +12,15 @@ ptt_config = {
     'monitor_boards': [
         ''
     ],
-    'base_url': 'https://www.ptt.cc'
+    'base_url': 'https://www.ptt.cc',
+}
+
+filter_config = {
+    'case_sensitive': False,
+    'required_keywords': [
+        ''
+    ],
+    'optional_keywords': [
+        ''
+    ],
 }
